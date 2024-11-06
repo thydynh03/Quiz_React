@@ -1,0 +1,128 @@
+.quiz-review-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.quiz-review-container h1 {
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.review-question {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.review-question.correct {
+    background-color: #d4edda; /* Light green for correct */
+    border: 1px solid #c3e6cb;
+}
+
+.review-question.incorrect {
+    background-color: #f8d7da; /* Light red for incorrect */
+    border: 1px solid #f5c6cb;
+}
+
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.option {
+    background-color: #e0e0ff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+}
+
+.option.selected {
+    font-weight: bold;
+}
+
+.answer-feedback {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.return-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+/* Summary review section styling */
+.summary-review-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.summary-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.summary-item {
+    background-color: #d4edda;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    width: 150px;
+    transition: background-color 0.3s;
+}
+
+.summary-item:hover {
+    background-color: #c3e6cb;
+}
+
+.status {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #007bff;
+}
+.summary-item.not-answered {
+    background-color: #f8d7da; /* Light red for not answered */
+    border: 1px solid #f5c6cb;
+  }
+  /* Return button styling */
+.return-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .return-button {
+    padding: 12px 25px;
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from link */
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .return-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  /* Styling for Score Display */
+.quiz-review-container h2 {
+    margin-top: 10px;
+    color: #007bff; /* Blue color for visibility */
+    text-align: center;
+  }
+  

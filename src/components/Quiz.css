@@ -1,0 +1,179 @@
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Container for the entire quiz */
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+.quiz-title {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-size: 36px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+/* Question container styling */
+.question-container {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+/* Question number and text styling */
+.question-container h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Options container styling for grid layout */
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Option button styling */
+.option-container {
+    background-color: #e0f7fa;
+    border: 1px solid #00acc1;
+    color: #333;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+.option-container input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.option-container.selected {
+    background-color: #00acc1;
+    color: white;}
+
+/* Navigation buttons styling */
+.navigation-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navigation-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigation-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.navigation-buttons button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Action buttons styling */
+.action-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .reset-button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reset-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .review-button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .review-button:hover {
+    background-color: #138496;
+  }
+  
